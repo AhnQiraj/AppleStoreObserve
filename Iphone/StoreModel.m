@@ -9,5 +9,13 @@
 #import "StoreModel.h"
 
 @implementation StoreModel
-
+- (instancetype)init
+{
+    if (self = [super init]) {
+        _storeName = @"";
+        _isHave = @"NONE";
+        _count = 0;
+    }
+    return self;
+}
 @end

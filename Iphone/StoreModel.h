@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface StoreModel : NSObject
-
+@property (nonatomic, copy) NSString *storeName;
+@property (nonatomic, copy) NSString * isHave;
+@property (nonatomic, assign) NSUInteger count;
 @end
